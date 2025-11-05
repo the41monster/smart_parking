@@ -6,7 +6,7 @@ from models.parking_floor import ParkingFloor
 from services.parking_lot import ParkingLot
 from services.entry_gate import EntryGate
 from services.exit_gate import ExitGate
-from models.vehicle_factory import SmallVehicleFactory, MediumVehicleFactory, LargeVehicleFactory
+from factories.vehicle_factory import SmallVehicleFactory, MediumVehicleFactory, LargeVehicleFactory
 
 
 spots_small = [ParkingSpot(f"S-{i+1}", SpotType.SMALL) for i in range(6)]
